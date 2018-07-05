@@ -19,9 +19,9 @@ class Frame:
     def add_ellipses(self, ellipses):
         self.ellipses.extend(ellipses)
         
-    def render(self, size_x, size_y):
+    #def render(self, size_x, size_y):
         # draw all ellipses into a new image
-        self.image = np.zeros((size_x,size_y), np.uint8)
+     #   self.image = np.zeros((size_x,size_y), np.uint8)
 
     def render(self, position, image):
         for e in self.ellipses:
